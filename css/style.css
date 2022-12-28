@@ -49,7 +49,7 @@ table {
 
 :root {
   --hero-height: 100vh;
-  --hero-width: 30vw;
+  --hero-width: 40vw;
   --logo-height: 16vh;
   --logo-width: 19vw;
 }
@@ -94,4 +94,85 @@ body {
 
 .hero-credits a {
   color: #ffffff;
+}
+
+.form {
+  color:#292929;
+  background-color: #f7f7f7;
+  font-size: 1.7rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form > * {
+  padding: 0 22.5vw 0 2.5vw;
+}
+
+.form p + p + p {
+  margin: 3vh 0 0 0;
+} 
+
+#sign-up {
+  background-color: #ffffff;
+  box-shadow: 0 .5vh .2em #d3d3d3;
+  margin: 10vh 0 5vh 0;
+  padding-bottom: 3vh;
+}
+
+.form-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  margin: 1vh 0;
+  color: #555555;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  margin: 2vh 0 1vh 0;
+  color: #404040;
+}
+
+input {
+  border: .02rem solid #e3e3e3;
+  border-radius: .25rem;
+  width: 14vw;
+  height: 2.25vh;
+  margin: 1vh 3vw 0 0;
+}
+
+i {
+  font-style: italic;
+}
+
+#submit {
+  border: .02rem none;
+  border-radius: .5rem;
+  background-color:#4f613f;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 5vh;
+  width: 14vw;
+  margin: 0 0 0 2.5vw; 
+  padding: 0 0 0 0;
+}
+
+p:last-child {
+  margin-top: 2.5vh;
+  font-size: 1.25rem;
+}
+
+.form a {
+  text-decoration: none;
+  color: #4f613f;
 }
