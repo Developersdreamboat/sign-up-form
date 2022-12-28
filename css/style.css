@@ -178,11 +178,3 @@ p:last-child {
   text-decoration: none;
   color: #4f613f;
 }
-
-.input-valid {
-  outline-color:#305bc1;;
-}
-
-.input-invalid {
-  outline-color:#d70000;
-}
